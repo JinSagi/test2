@@ -1,0 +1,7 @@
+git branch -D dev
+git branch -a
+git push origin :dev
+git log
+git reset --hard head^
+git reflog
+git reset --hard 
